@@ -1,0 +1,15 @@
+# Train - Train_ID*, Name, Wagon_Number
+
+# Station - Station_ID*, Name, Time_Schedule
+
+# Track - Track_ID*, Name, Length
+
+# Passenger - Passenger_ID*, First_Name, Last_Name, Ticket_ID@, Train_ID@
+
+# Booking - Ticket_ID*, Time, Date, Seat_No, From_Station, To_Station, Train_ID@
+
+# Train Worker - TWorker_ID*, Type, First_Name, Last_Name, Train_ID@, Schedule_ID@
+
+# Station Worker SWorker_ID*, Type, First_Name, Last_Name, Station_ID@, Schedule_ID@
+
+# Work Schedule - Schedule_ID*, Start_Time, Break_Time, End_Time
